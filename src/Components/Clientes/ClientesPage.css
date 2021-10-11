@@ -1,0 +1,155 @@
+.main-container{
+    width:90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.clientes-description-form{
+  width: inherit;
+  height: auto;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #161616;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 6px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.clientes-description-form div{
+  text-align: center;
+}
+
+.clientes-description-form h2{
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-family: "sf_quartziteregular";
+    text-shadow: 1px 1px 1px #858484
+}
+.clientes-description-form h5{
+    margin: 10px;
+    font-weight: 100;
+    font-size: 1.3rem;
+    font-family: "sf_quartziteregular";
+    color:#e6c781;
+    text-shadow: 1px 1px 1px #483a1a;    
+}
+
+.clientes-description-form .image{
+    width: 10rem;
+    height: 10rem;
+    background: url('../../img/logogym.png') no-repeat center center/cover;
+    
+}
+
+.wrapper-search h5{
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 100;
+  font-size: 1.3rem;
+  font-family: "sf_quartziteregular";
+  color:#333;
+    text-shadow: 1px 1px 1px rgb(126, 126, 126); 
+}
+
+.wrapper-search p {
+  margin-top: 30px;
+  font-size: 1rem;
+}
+
+.container-table {
+  width: inherit;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .main-container input{
+    width: 400px;
+    padding: 12px 20px;
+    display: block;
+    margin: 2rem auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  table {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 2rem;
+  }
+
+
+  table th{
+    font-weight: 100;
+    font-size: 1.3rem;
+    font-family: "sf_quartziteregular";
+    color:#333;
+    text-shadow: 1px 1px 1px rgb(126, 126, 126);
+  }
+
+  th, td{
+    padding: 10px;
+    text-align: center;
+  }
+
+  .activo, .inactivo{
+    font-weight: bold;
+    font-size: 0.9rem;
+
+  }
+
+  .activo{
+    color: green;
+
+  }
+
+  .inactivo{
+    color: red;
+  }
+
+  
+
+  .btn{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin: 0 5px ;
+    padding: 8px 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+  }
+
+  .btn-edit{
+    background-color: #0EB1D2;
+    text-shadow: 1px 1px 1px #03a5c5;
+  }
+
+  .btn-edit:hover{
+    background-color: #30c2df;
+  }
+
+  .btn-delete{
+    background-color: #FF5A5F!important;
+    text-shadow: 1px 1px 1px #f7272e!important;
+  }
+
+
+  .btn-delete:hover{
+    background-color: #fd8084;
+  }
+

@@ -1,0 +1,17 @@
+.crear-cuenta{
+    margin:  0 auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+.btn{
+    background-color: #0EB1D2;
+    text-shadow: 1px 1px 1px #03a5c5;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #30c2df;
+
+}
